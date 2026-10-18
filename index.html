@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitchelle | Developer in Progress, Human-Centered by Design</title>
+  <meta name="description" content="Portfolio of Mitchelle: software engineering graduate of eMobilis and Psychology student at Pwani University, building human-centered websites and apps.">
+
+  <!-- Link preview (LinkedIn, WhatsApp etc.). Replace the URL once deployed -->
+  <meta property="og:title" content="Mitchelle | Developer in Progress">
+  <meta property="og:description" content="Websites, apps and human-centered technology.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mitchelle-dev.netlify.app">
+  <meta property="og:image" content="https://mitchelle-dev.netlify.app/images/profile.jpg">
+
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#home" class="logo">Mitchelle</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Developer in progress</p>
+        <h1>I build apps and websites, and I study the people who use them.</h1>
+        <p class="lead">
+          Software engineering graduate and Psychology student, interested in
+          human-centered technology, UX and building things people find genuinely useful.
+        </p>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+        <a class="text-link" href="https://github.com/rahima000" target="_blank" rel="noopener">GitHub profile →</a>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <span class="photo-fallback" aria-hidden="true">M</span>
+          <img src="images/Snapchat-385398591~2.jpg" alt="Portrait of Mitchelle" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+      <h2 class="section-title">About me</h2>
+      <div class="about-grid">
+        <p>
+          I completed a software engineering course at eMobilis Technology Training
+          Institute and I'm currently pursuing a Bachelor of Arts in Psychology at
+          Pwani University. I learn best by building, so I make practical personal
+          projects and keep growing my skills with each one.
+        </p>
+        <p>
+          I'm curious about how people think, behave and interact with technology, and
+          how that understanding can lead to accessible, intuitive products. I'm
+          exploring where psychology, UX research and product development meet.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul class="tags"><li>Python</li><li>Django</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Android</h3>
+          <ul class="tags"><li>Kotlin</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; workflow</h3>
+          <ul class="tags"><li>Git</li><li>GitHub</li><li>VS Code</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+      <h2 class="section-title">Featured projects</h2>
+      <div class="projects-grid">
+
+        <!-- PROJECT CARD: copy from <article> to </article> to add a new project -->
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/images/clothe website.avif" alt="Screenshot of the fashion e-commerce website" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Fashion / E-commerce Website</h3>
+            <p>A fashion storefront website.A responsive fashion storefront concept designed to showcase clothing products in a clean, user-friendly layout. Built to practise web design, styling, and e-commerce interface development. </p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><!-- EDIT: only tools you used --></ul>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-small" href="https://rahima000.github.io/fashi-master/" target="_blank" rel="noopener">View Live Project</a>
+              <!-- Add a GitHub button when you have the repo link:
+              <a class="btn btn-secondary btn-small" href="REPO-URL" target="_blank" rel="noopener">Source Code</a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/images/african hair picture.avif" alt="Screenshot of the salon website" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Salon Website</h3>
+            <p>A website for a salon.A modern salon website concept showcasing beauty services through an attractive layout, clear service sections, and a user-friendly browsing experience. </p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-small" href="https://rahima000.github.io/salon-website/" target="_blank" rel="noopener">View Live Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/images/restaurant pic.avif" alt="Screenshot of the restaurant website" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Restaurant Website</h3>
+            <p>A restaurant website.A restaurant website concept designed to present the dining experience, organise menu information, and provide visitors with a simple, intuitive interface.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-small" href="https://rahima000.github.io/restaurant/" target="_blank" rel="noopener">View Live Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/images/portfolio pic.avif" alt="Screenshot of my earlier portfolio website" onerror="this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Earlier Portfolio Website</h3>
+            <p>My first personal portfolio.An earlier personal portfolio project built to practise HTML and CSS, explore page layouts, and develop my skills in creating responsive websites.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-small" href="https://mitchelle-dev.netlify.app" target="_blank" rel="noopener">View Live Project</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PSYCHOLOGY + TECH -->
+    <section id="psychology" class="container">
+      <div class="psych">
+        <h2 class="section-title">Where psychology meets technology</h2>
+        <p class="psych-intro">
+          Understanding people can help shape better digital experiences. These are the
+          areas I'm exploring as I study and build.
+        </p>
+        <div class="psych-grid">
+          <div><h3>Human-centered design</h3><p>Starting from real human needs, not just features.</p></div>
+          <div><h3>User behavior</h3><p>How people actually use and feel about digital products.</p></div>
+          <div><h3>UX &amp; product research</h3><p>Learning to ask better questions before building.</p></div>
+          <div><h3>Accessibility &amp; usability</h3><p>Making technology work for more people.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="container">
+      <h2 class="section-title">Education</h2>
+      <ol class="timeline">
+        <li>
+          <h3>Pwani University</h3>
+          <p>Bachelor of Arts in Psychology</p>
+          <span class="status">In progress</span>
+        </li>
+        <li>
+          <h3>eMobilis Technology Training Institute</h3>
+          <p>Software Engineering Short Course</p>
+          <span class="status">Completed</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container">
+      <h2 class="section-title">Let's talk</h2>
+      <p class="lead">
+        Open to conversations about projects, collaborations and opportunities.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="mailto:mitchellewambui04@gmail.com">Email</a>
+        <a class="btn btn-secondary" href="https://github.com/rahima000" target="_blank" rel="noopener">GitHub</a>
+        <!-- EDIT: replace # with your LinkedIn URL -->
+        <a class="btn btn-secondary" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Mitchelle ·
+      <a href="https://github.com/rahima000" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
